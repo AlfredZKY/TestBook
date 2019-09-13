@@ -2,12 +2,13 @@
 
 * [Introduction](README.md)
 
-* [Part Ⅰ](design)
+* [MYSQL](mysql)
 
-    * [rpc.annonate](design/rpc.md)
+    * [mysql基础知识](mysql/mysql基础.md)
 
         
 
     
 
  
+
