@@ -95,9 +95,11 @@
 `mysqladmin --version`
 
 linux上该命令将输出以下结果，该结果基于你的系统信息：
+
 ![img](../images/mysql-version_linux.png)
 
 windows上该命令将输出以下结果，该结果基于你的系统信息：
+
 ![img](../images/mysql-version_win.png)
 
 如果没有显示任何信息，则证明你的Mysql没有安装成功。
