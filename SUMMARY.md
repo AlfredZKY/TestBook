@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-* [MYSQL](mysql)
+* [mysql](mysql)
 * [mysql基础知识](mysql/mysql基础.md)
     
 * [mysql开启远程](mysql/mysql远程访问.md)
@@ -15,3 +15,4 @@
 - [anaconda3](anaconda3)
     - [anaconda3安装](anaconda3/anaconda3安装.md)
     - [安装虚拟Python环境](anaconda3/安装虚拟Python版本环境.md)
+
