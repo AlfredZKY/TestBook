@@ -16,7 +16,7 @@
     - [anaconda3安装](anaconda3/anaconda3安装.md)
     - [安装虚拟Python环境](anaconda3/安装虚拟Python版本环境.md)
 
-- [matploylib](matplotlib)
+- [matplotlib](matplotlib)
   - [annotate](matplotlib/annotate.md)
   - [figure](matplotlib/figure.md)
 
