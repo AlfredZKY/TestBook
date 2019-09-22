@@ -8,7 +8,7 @@
 
 chmod 755 Anaconda3-5.3.0-Linux-x86_64.sh  修改脚本的权限
 
-![脚本](https://github.com/AlfredZKY/typora/raw/master/local_photo/install_anaconda3.jpg)
+![img](../images/install_anaconda3.jpg)
 
 然后执行该脚本一路点击即可完成安装。
 
@@ -34,9 +34,9 @@ conda config --set show_channel_urls yes
 
 `from notebook.auth import passwd`
 
-`passwd()`
+`passwd()` 
 
-![脚本](https://github.com/AlfredZKY/typora/raw/master/local_photo/generate_pass.jpg)
+![img](../images/generate_pass.jpg)
 
 此时会让你输入密码，然后确认密码，最后生成秘钥，记住秘钥，然后进入到刚才生成的配置文件中去。
 
