@@ -19,4 +19,5 @@
 - [matplotlib](matplotlib)
   - [annotate](matplotlib/annotate.md)
   - [figure](matplotlib/figure.md)
+  - [text](annotate/text.md)
 
