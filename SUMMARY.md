@@ -21,3 +21,6 @@
   
 - [pythonBasic](Python基础)
     - [生成器和迭代器](Python基础/IteratorOrConstructor.md)
+    
+- [gdb](gdb)
+    - [gdb说明文档](gdb/gdb使用.md)
