@@ -12,6 +12,8 @@
     
     - [mysql忘记root密码](mysql/mysql忘记root.md)  
 
+    - [mysqlwin配置文件](mysql/my.md)
+
 - [anaconda3](anaconda3)
     - [anaconda3安装](anaconda3/anaconda3安装.md)
     - [安装虚拟Python环境](anaconda3/安装虚拟Python版本环境.md)
