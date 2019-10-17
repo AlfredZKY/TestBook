@@ -1,17 +1,22 @@
-[mysql]
-#ÉèÖÃmysql¿Í»§¶ËÄ¬ÈÏ×Ö·û¼¯
-default-character-set=utf8
-[mysqld]
-#ÉèÖÃ3306¶Ë¿Ú
-port = 3306
-# ÉèÖÃmysqlµÄ°²×°Ä¿Â¼
-datadir=C:\mysql\mysql-5.7.25-winx64\mysql-5.7.25-winx64\data
-# ÔÊĞí×î´óÁ¬½ÓÊı
-max_connections=200
-# ·şÎñ¶ËÊ¹ÓÃµÄ×Ö·û¼¯Ä¬ÈÏÎª8±ÈÌØ±àÂëµÄlatin1×Ö·û¼¯
-character-set-server=utf8
-# ´´½¨ĞÂ±íÊ±½«Ê¹ÓÃµÄÄ¬ÈÏ´æ´¢ÒıÇæ
-default-storage-engine=INNODB
+[mysql]  
+#è®¾ç½®mysqlå®¢æˆ·ç«¯é»˜è®¤å­—ç¬¦é›†   
+default-character-set=utf8 
 
-# Ä¬ÈÏµ¼³öÎÄ¼şµÄÂ·¾¶
+[mysqld]  
+#è®¾ç½®3306ç«¯å£  
+port = 3306  
+
+#è®¾ç½®mysqlçš„å®‰è£…ç›®å½•  
+datadir=C:\mysql\mysql-5.7.25-winx64\mysql-5.7.25-winx64\data  
+
+#å…è®¸æœ€å¤§è¿æ¥æ•°  
+max_connections=200  
+
+#æœåŠ¡ç«¯ä½¿ç”¨çš„å­—ç¬¦é›†é»˜è®¤ä¸º8æ¯”ç‰¹ç¼–ç çš„latin1å­—ç¬¦é›†  
+character-set-server=utf8   
+
+#åˆ›å»ºæ–°è¡¨æ—¶å°†ä½¿ç”¨çš„é»˜è®¤å­˜å‚¨å¼•æ“  
+default-storage-engine=INNODB   
+
+#é»˜è®¤å¯¼å‡ºæ–‡ä»¶çš„è·¯å¾„   
 secure-file-priv= ''
