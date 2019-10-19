@@ -1,6 +1,7 @@
 [mysql]  
 #设置mysql客户端默认字符集   
 default-character-set=utf8 
+port=3306
 
 [mysqld]  
 #设置3306端口  
@@ -20,3 +21,4 @@ default-storage-engine=INNODB
 
 #默认导出文件的路径   
 secure-file-priv= ''
+skip-grant-tables

@@ -12,7 +12,7 @@
     
     - [mysql忘记root密码](mysql/mysql忘记root.md)  
 
-    - [mysqlwin配置文件](mysql/my.md)
+    - [mysqlwin配置文件](mysql/myini.md)
 
 - [anaconda3](anaconda3)
     - [anaconda3安装](anaconda3/anaconda3安装.md)
