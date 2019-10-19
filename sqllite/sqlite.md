@@ -6,19 +6,18 @@ sqlite的使用请下载sqlite3.exe
 
 ## sqlite3的命令介绍
     - 显示命令的帮助信息
-      `.help`
+        .help
        
-
     - 打开数据，FILENAME是数据的存储路径
-      `.open FILENAME`
+        .open FILENAME
        
     - 显示数据库中表 
-      `.tables`
+        .tables
         
     - 执行sql语句
-      `select * from table_name`
+        select * from table_name
         
     - 导出表中的数据为csv格式
-      `.output file_name.csv`
-      `select * from table_name` 
-      `.exit`
+        .output file_name.csv
+        select * from table_name`
+        .exit
