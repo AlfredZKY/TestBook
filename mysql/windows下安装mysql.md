@@ -33,3 +33,6 @@
     `update user set authentication_string=PASSWORD('123456') where user='root';`  
     `flush privilegers`  
     `exit`  
+
+11.如果无法登陆重新更新下密码
+    `alter user user('root') identified by "123456";`
