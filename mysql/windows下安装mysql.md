@@ -16,20 +16,20 @@
 
 5.设置环境变量，解压好的bin目录加入环境变量中
 
-6.进入mysql的bin目录下运行下面命令
+6.进入mysql的bin目录下运行下面命令  
 ​	 `mysqld --initialize`
 
-7.以配置来安装mysql,配置时写成自己的配置文件所在的路径
+7.以配置来安装mysql,配置时写成自己的配置文件所在的路径  
     `mysqld --install`
 
-8.启动mysql
+8.启动mysql  
     `net start mysql`
 
-9.利用客户端进入,配置文件已配置无密码登陆选项
+9.利用客户端进入,配置文件已配置无密码登陆选项  
     `mysql -uroot -p`
 
-10.进入数据后，更改root的登录密码
-    `use mysql`
-    `update user set authentication_string=PASSWORD('123456') where user='root';`
-    `flush privilegers`
-    `exit`
+10.进入数据后，更改root的登录密码  
+    `use mysql`  
+    `update user set authentication_string=PASSWORD('123456') where user='root';`  
+    `flush privilegers`  
+    `exit`  
