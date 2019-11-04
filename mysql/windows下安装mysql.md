@@ -3,10 +3,7 @@
 ​	在bin目下执行mysqld --remove mysql进行删除操作
 
 1.下载安装包 
-
- 	打开mysql官网下载页面：http://dev.mysql.com/downloads/mysql/
-
-​	根据平台系统选择自己想要的版本进行下载就可以了
+   打开mysql官网下载页面：[mysql下载链接](http://dev.mysql.com/downloads/mysql/)根据平台系统选择自己想要的版本进行下载就可以了  
 
 2.源码下载完毕后，直接复制在c盘，并进行解压。
 
