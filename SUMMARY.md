@@ -12,7 +12,7 @@
     
     - [mysql忘记root密码](mysql/mysql忘记root.md)  
 
-    - [mysqlwin配置文件](mysql/my.md)
+    - [mysqlwin配置文件](mysql/myini.md)
 
     - [sql遇到的问题](mysql/sql_problem.md)
 
