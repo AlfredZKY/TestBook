@@ -59,4 +59,13 @@
 
 ### 更新commit的信息
 `git commit --amend` 更新最近的一次提交的message做变更  
-`git rebase -i hash` 对某一次提交的hash进行提交信息的变更(交互式的)  
+`git rebase -i hash` 对某一次提交的hash进行提交信息的变更(交互式的 reword)  
+`git rebase -i hash` 合并多个commit信息(squash)  
+
+### 比较暂存区和head的文件差异
+`git diff --cached` 比较head和暂存区的文件差异  
+`git diff ` 工作区和暂存区的文件差异  
+`git diff -- filename` 比较具体的文件的差异  
+`git reset HEAD` 取消暂存区的所有文件  
+`git checkout -- filename` 取消工作区的文件更改  
+`git reset HEAD -- filename` 取消暂存区中具体的文件的更改  
