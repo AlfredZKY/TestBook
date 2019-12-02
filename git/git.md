@@ -69,3 +69,11 @@
 `git reset HEAD` 取消暂存区的所有文件  
 `git checkout -- filename` 取消工作区的文件更改  
 `git reset HEAD -- filename` 取消暂存区中具体的文件的更改  
+`git reset --hard hash` 变更头指针到指定的hash  
+`git diff hash hash -- filename` 比较两个提交的对应的文件的差异  
+
+### 备份工作状态
+`git stash` 保存工作状态  
+`git stash list` 查看存储工作区列表  
+`git stash apply` 把之前存储的工作区进行恢复(不删除)
+`git stash pop`
