@@ -53,3 +53,10 @@
 ### 用git查看对象
 `git cat-file -t hash` 查看哈希值对象的类型  
 `git cat-file -p hash` 查看哈希值生成的具体信息 
+
+### 删除分支
+`git branch -d/-D 分支名字或者hash` 删除不要的分支 
+
+### 更新commit的信息
+`git commit --amend` 更新最近的一次提交的message做变更  
+`git rebase -i hash` 对某一次提交的hash进行提交信息的变更(交互式的)  
