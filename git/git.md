@@ -47,7 +47,7 @@
 上面的命令是可以组合在一起的进行调用，但是要注意下优先级  
 
 ### 通过图形界面查看
-`gitk` 图形界面查看版本信息  
+`gitk --all` 图形界面查看版本信息  
 
 
 ### 用git查看对象
@@ -77,3 +77,17 @@
 `git stash list` 查看存储工作区列表  
 `git stash apply` 把之前存储的工作区进行恢复(不删除)
 `git stash pop`
+
+### 配置ssh协议
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` 生成一个ssh公司钥对,邮箱地址要写成自己的github绑定的邮箱名  
+`ssh -T git@github.com` 测试自己配置的github账户的公司钥对是否正确  
+
+### git remote设置远端配置
+`git remote add 远端名字 github的ssh链接` 添加一个远端的github链接
+`git remote remove 远端名字` 删除一个远端链接 
+
+### git fetch
+`git fetch` 拉取远端分支到本地  
+
+### git pull 
+`git pull` 拉取远端分支到本地和归并分支(多人协作时，提交冲突时，要协商)  
