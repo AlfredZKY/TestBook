@@ -91,3 +91,9 @@
 
 ### git pull 
 `git pull` 拉取远端分支到本地和归并分支(多人协作时，提交冲突时，要协商)  
+
+### 快速搜索
+`in:readme starts > 1000` 快速高效的检索  
+
+### github的help
+多查看github的帮助说明文档。 
