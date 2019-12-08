@@ -93,7 +93,13 @@
 `git pull` 拉取远端分支到本地和归并分支(多人协作时，提交冲突时，要协商)  
 
 ### 快速搜索
-`in:readme starts > 1000` 快速高效的检索  
+`in:readme starts > 1000` 快速高效的检索，其他请参考github的帮助说明文档  
 
 ### github的help
 多查看github的帮助说明文档。 
+
+### 合并特性分支  
+`pull requests` 通过github上的pull requests 请求进行合并  
+`squash rebase`特性分支归并到分支  
+`merge commit` 多个分支进行集成  
+当存在多个特性分支，采用rebase方式进行合并时,请查看git的帮助文档中的Git工具-Rerere  
