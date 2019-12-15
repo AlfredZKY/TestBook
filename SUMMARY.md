@@ -34,3 +34,6 @@
   
 - [sqlite](sqlite)
     - [sqlite简单使用](sqllite/sqlite.md)
+
+- [nodejs](nodejs)
+    - [nodejs安装](nodejs/install.md)
