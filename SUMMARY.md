@@ -6,9 +6,9 @@
     - [mysql基础知识](mysql/mysql基础.md)  
 
     - [mysql其他知识]  
-        - [mysql忘记root密码](mysql/mysql忘记root.md) 
-        - [mysqlwin配置文件](mysql/myini.md)  
-        - [mysql开启远程](mysql/mysql远程访问.md)  
+        - [mysql忘记root密码](mysql/otherop/mysql忘记root.md) 
+        - [mysqlwin配置文件](mysql/otherop/myini.md)  
+        - [mysql开启远程](mysql/otherop/mysql远程访问.md)  
 
     - [mysql安装]
         - [mysqlwin安装](mysql/安装/windows下安装mysql.md)
