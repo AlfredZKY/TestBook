@@ -3,18 +3,16 @@
 * [Introduction](README.md)
 
 * [mysql](mysql)
+    - [mysql基础知识](mysql/mysql基础.md)  
 
-    - [mysql基础知识](mysql/mysql基础.md)
-
-    - [mysql开启远程](mysql/mysql远程访问.md)
+    - [mysql其他知识]  
+        - [mysql忘记root密码](mysql/mysql忘记root.md) 
+        - [mysqlwin配置文件](mysql/myini.md)  
+        - [mysql开启远程](mysql/mysql远程访问.md)  
 
     - [mysql安装]
         - [mysqlwin安装](mysql/安装/windows下安装mysql.md)
         - [mysqllinux安装](mysql/安装/linux下安装mysql.md)
-    
-    - [mysql忘记root密码](mysql/mysql忘记root.md)  
-
-    - [mysqlwin配置文件](mysql/myini.md)
 
     - [sql遇到的问题](mysql/sql_problem.md)
 
