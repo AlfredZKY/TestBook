@@ -5,6 +5,9 @@
 * [mysql](mysql)
     - [mysql基础知识](mysql/mysql基础.md)  
 
+    - [mysql的基本操作](mysql/基本操作)  
+        - [CURD操作](mysql/基本操作/CURD.md)  
+
     - [mysql其他知识](mysql/otherop)  
         - [mysql忘记root密码](mysql/otherop/mysql忘记root.md) 
         - [mysqlwin配置文件](mysql/otherop/myini.md)  
