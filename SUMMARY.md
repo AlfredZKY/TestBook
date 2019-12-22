@@ -8,9 +8,9 @@
 
     - [mysql开启远程](mysql/mysql远程访问.md)
 
-    - [mysqlwin安装](mysql/windows下安装mysql.md)
-
-    - [mysqllinux安装](mysql/linux下安装mysql.md)
+    - [mysql安装]
+        - [mysqlwin安装](mysql/安装/windows下安装mysql.md)
+        - [mysqllinux安装](mysql/安装/linux下安装mysql.md)
     
     - [mysql忘记root密码](mysql/mysql忘记root.md)  
 
