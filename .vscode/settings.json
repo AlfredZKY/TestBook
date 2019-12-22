@@ -1,7 +1,7 @@
 {
     "sqltools.connections": [
         {
-            "database": "mydatabase",
+            "database": "information_school",
             "dialect": "MySQL",
             "isActive": true,
             "isConnected": true,
