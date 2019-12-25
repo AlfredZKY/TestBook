@@ -740,4 +740,3 @@ pattern = re.compile(r'<input type="submit" id="(.*?)" value="(.*?)" class="bg s
 
 result = pattern.findall(string)
 print(result)
-```
