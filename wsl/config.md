@@ -28,6 +28,15 @@
 `ls /etc/ssh/` 有文件就不用安装 ssh 服务，没有就安装`apt-get install openssh-server`.安装完毕后开启服务。  
 配置 GitHub 的公钥请参考 github 的帮助，完成后配置防火墙开启 22 端口。入站规则->新建规则->端口->tcp->特定端口->允许链接
 
+# 修改/etc/ssh/ssh_config 文件
+
+Host github.com
+User 你的注册邮箱
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+
 # 更换创建文件夹烦人的绿色
 
 `cd ~/`  
@@ -62,15 +71,16 @@ OTHER_WRITABLE 04;34 # dir that is other-writable (o+w) and not sticky
 46 — Cyan  
 47 – White
 
-# wsl文件权限设置
-`vim .bashrc`   
-if [[ "$(umask)" == '000' ]]; then 
-   umask 022`  
-fi  
+# wsl 文件权限设置
+
+`vim .bashrc`  
+if [[ "$(umask)" == '000' ]]; then
+umask 022`  
+fi
 
 `vim /etc/wsl/conf`  
 [automount]  
 enabled = true  
 root = /mnt/  
-options = "metadata,dmask=022,  fmask=133"  
-mountFsTab = false  
+options = "metadata,dmask=022, fmask=133"  
+mountFsTab = false
