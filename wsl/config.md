@@ -61,3 +61,16 @@ OTHER_WRITABLE 04;34 # dir that is other-writable (o+w) and not sticky
 45 — Magenta  
 46 — Cyan  
 47 – White
+
+# wsl文件权限设置
+`vim .bashrc`   
+if [[ "$(umask)" == '000' ]]; then 
+   umask 022`  
+fi  
+
+`vim /etc/wsl/conf`  
+[automount]  
+enabled = true  
+root = /mnt/  
+options = "metadata,dmask=022,  fmask=133"  
+mountFsTab = false  
