@@ -75,7 +75,7 @@ OTHER_WRITABLE 04;34 # dir that is other-writable (o+w) and not sticky
 
 `vim .bashrc`  
 if [[ "$(umask)" == '000' ]]; then
-umask 022`  
+umask 022  
 fi
 
 `vim /etc/wsl/conf`  
