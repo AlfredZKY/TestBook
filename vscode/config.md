@@ -10,3 +10,9 @@
 - sqltools mysql 插件
 - go 插件
   - "go.testFlags": ["-v"] 测试案例显示详细信息
+
+# Remote - SSH
+- 配置远程登陆机器调试方便  
+
+# SQLTools - Database tools
+- 数据库插件
