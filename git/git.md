@@ -82,7 +82,7 @@
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` 生成一个ssh公司钥对,邮箱地址要写成自己的github绑定的邮箱名  
 `ssh -T git@github.com` 测试自己配置的github账户的公司钥对是否正确  
 
-### git remote设置远端配置
+### git remote设置远端配置,注意用户权限
 `git remote -v` 查看远端分支模式(https/ssh)  
 `git remote add 远端名字 github的ssh链接` 添加一个远端的github链接
 `git remote remove 远端名字` 删除一个远端链接 
