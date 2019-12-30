@@ -43,7 +43,7 @@ desc my_pri3;
 alter  table my_pri3 add primary key(course);
 
 -- 删除主键
-alter table tablename drop primark key
+alter table tablename drop primary key
 
 alter table my_pri3 drop primary key;
 
