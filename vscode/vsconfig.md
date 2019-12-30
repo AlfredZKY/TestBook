@@ -11,3 +11,4 @@ comments 就是代码注释，strings 就是指字符串。默认情况下，当
 "editor.cursorBlinking":
 "editor.cursorStyle":
 "editor.cursorWidth":
+"workbench.editor.enablePreview": false, 打开窗口不替换
