@@ -12,3 +12,19 @@ comments 就是代码注释，strings 就是指字符串。默认情况下，当
 "editor.cursorStyle":
 "editor.cursorWidth":
 "workbench.editor.enablePreview": false, 打开窗口不替换
+"vsicons.dontShowNewVersionMessage": true,
+"window.zoomLevel": 1,
+"workbench.activityBar.visible": true,
+"workbench.iconTheme": "vscode-icons",
+"workbench.statusBar.visible": true,
+"editor.accessibilitySupport": "on",
+"editor.renderIndentGuides": false,
+"[nim]": {},
+"editor.tabSize": 4,
+"workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#17a346",
+    "editorGutter.background": "#020230",
+    "editorCursor.foreground": "#d41313",
+},
+"workbench.colorTheme": "Monokai",
+"terminal.integrated.cursorBlinking": true,
