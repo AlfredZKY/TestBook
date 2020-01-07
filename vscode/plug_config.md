@@ -5,14 +5,21 @@
 
 # vscode 好用的插件
 
-- highlight-icemode 高亮显示
+## highlight-icemode 高亮显示
+
 - prettier-vscode 保存代码自动代码格式化
-- sqltools mysql 插件
+
 - go 插件
   - "go.testFlags": ["-v"] 测试案例显示详细信息
 
-# Remote - SSH
-- 配置远程登陆机器调试方便  
+## Remote - SSH
 
-# SQLTools - Database tools
+- 配置远程登陆机器调试方便
+
+## SQLTools - Database tools
+
 - 数据库插件
+
+## Bracket Pair Colorizer
+
+- 优化代码风格，括号带颜色匹配
