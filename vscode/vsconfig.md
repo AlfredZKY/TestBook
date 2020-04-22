@@ -26,5 +26,4 @@ comments 就是代码注释，strings 就是指字符串。默认情况下，当
     "editorGutter.background": "#020230",
     "editorCursor.foreground": "#d41313",
 },
-"workbench.colorTheme": "Monokai",
 "terminal.integrated.cursorBlinking": true,
