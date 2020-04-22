@@ -126,3 +126,12 @@
 `squash rebase`特性分支归并到分支  
 `merge commit` 多个分支进行集成  
 当存在多个特性分支，采用 rebase 方式进行合并时,请查看 git 的帮助文档中的 Git 工具-Rerere
+
+
+# Git代理
+  - 配置代理
+    - git config --global http.proxy http://127.0.0.1:7890
+    - git config --global https.proxy http://127.0.0.1:7890
+  - 取消代理
+    - git config --global --unset http.proxy 
+    - git config --global --unset https.proxy
