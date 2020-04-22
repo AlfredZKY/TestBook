@@ -44,7 +44,7 @@
 
 - `git config --global user.name` "你的名字" 让你全部的 Git 仓库绑定你的名字
 - `git config --global user.email` "你的邮箱" 让你全部的 Git 仓库绑定你的邮箱
-  其中 local 的优先级是高于 global 的,system 是基本上不使用的，也就不在介绍了。
+	其中 local 的优先级是高于 global 的,system 是基本上不使用的，也就不在介绍了。
 
 ### 查看版本日志
 
@@ -129,9 +129,32 @@
 
 
 # Git代理
-  - 配置代理
-    - git config --global http.proxy http://127.0.0.1:7890
-    - git config --global https.proxy http://127.0.0.1:7890
-  - 取消代理
-    - git config --global --unset http.proxy 
-    - git config --global --unset https.proxy
+	- 配置代理
+		- `git config --global http.proxy http://127.0.0.1:7890`
+		- `git config --global https.proxy http://127.0.0.1:7890`
+	- 取消代理
+		- `git config --global --unset http.proxy `
+		- `git config --global --unset https.proxy`
+
+# Git更换远端的协议
+	- git 更换为https
+		- 1.修改命令
+			git remote set-url origin [url]
+			我这里使用 git remote set-url origin [url]命令，直接修改远程仓库为https的地址
+
+		- 2.先删后加
+			git remote rm origin
+			git remote add origin [url]
+
+		3.直接修改config文件
+
+	- https 更换为git
+		- 同上操作既可
+	
+# Git设置免密操作
+	- 新建一个文件并保存密码
+		`vim .git-credentials`
+	- 添加内容
+		`https://{username}:{passwd}@github.com`
+	- 添加配置
+		git config --global credentials.helper store
