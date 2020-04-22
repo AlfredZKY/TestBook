@@ -137,24 +137,24 @@
 		- `git config --global --unset https.proxy`
 
 # Git更换远端的协议
-	- git 更换为https
-		- 1.修改命令
-			git remote set-url origin [url]
-			我这里使用 git remote set-url origin [url]命令，直接修改远程仓库为https的地址
+	- git 更换为https  
+		- 1.修改命令  
+			git remote set-url origin [url]  
+			我这里使用 git remote set-url origin [url]命令，直接修改远程仓库为https的地址  
 
-		- 2.先删后加
-			git remote rm origin
-			git remote add origin [url]
+		- 2.先删后加  
+			git remote rm origin  
+			git remote add origin [url]  
 
-		3.直接修改config文件
-
+		3.直接修改config文件  
+  
 	- https 更换为git
 		- 同上操作既可
 	
-# Git设置免密操作
-	- 新建一个文件并保存密码
-		`vim .git-credentials`
-	- 添加内容
-		`https://{username}:{passwd}@github.com`
-	- 添加配置
-		git config --global credentials.helper store
+# Git设置免密操作  
+	- 新建一个文件并保存密码  
+		`vim .git-credentials`  
+	- 添加内容  
+		`https://{username}:{passwd}@github.com`  
+	- 添加配置  
+		git config --global credentials.helper storeD  

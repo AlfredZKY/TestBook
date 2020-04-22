@@ -15,9 +15,15 @@
 
     - [mysql安装](mysql/安装) 
         - [mysqlwin安装](mysql/安装/windows下安装mysql.md)
-        - [mysqllinux安装](mysql/安装/linux下安装mysql.md)
+        - [mysqllinux安装](mysql/安装/linux下安装mysql.md) 
 
-    - [sql遇到的问题](mysql/sql_problem.md)
+    - [sql遇到的问题](mysql/sql_problem.md)  
+
+- [mongo](mongo)  
+    - [mongo安装](mongo/安装)
+        - [mongolinux安装](mongo/安装/linux安装.md)  
+    - [基本操作](mongo/基本操作)
+        - [启动](mongo/基本操作/启动.md)  
 
 - [anaconda3](anaconda3)
     - [anaconda3安装](anaconda3/anaconda3安装.md)
