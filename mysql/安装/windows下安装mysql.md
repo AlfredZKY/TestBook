@@ -14,10 +14,10 @@
 5.设置环境变量，解压好的bin目录加入环境变量中
 
 6.进入mysql的bin目录下运行下面命令  
-​	 `mysqld --initialize-insecure`
+​	 `mysqld --initialize-insecure --user=mysql`  mysql服务初始化  
 
 7.以配置来安装mysql,配置时写成自己的配置文件所在的路径  
-    `mysqld --install`
+    `mysqld --install mysql --defaults-file=C:\mysql-5.7.25-winx64\mysql-5.7.25-winx64\myini.ini`   安装默认配置文件的路径安装mysql服务   
 
 8.启动mysql  
     `net start mysql`
