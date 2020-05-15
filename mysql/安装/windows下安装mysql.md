@@ -14,7 +14,7 @@
 5.设置环境变量，解压好的bin目录加入环境变量中
 
 6.进入mysql的bin目录下运行下面命令  
-​	 `mysqld --initialize`
+​	 `mysqld --initialize-insecure`
 
 7.以配置来安装mysql,配置时写成自己的配置文件所在的路径  
     `mysqld --install`
@@ -28,7 +28,7 @@
 10.进入数据后，更改root的登录密码  
     `use mysql`  
     `update user set authentication_string=PASSWORD('123456') where user='root';`  
-    `flush privilegers`  
+    `flush privileges`  
     `exit`  
 
 11.如果无法登陆重新更新下密码
