@@ -27,7 +27,9 @@
 
 10.进入数据后，更改root的登录密码  
     `use mysql`  
-    `update user set authentication_string=PASSWORD('123456') where user='root';`  
+    `
+    
+    `  
     `flush privileges`  
     `exit`  
 
