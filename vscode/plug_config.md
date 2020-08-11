@@ -23,3 +23,6 @@
 ## Bracket Pair Colorizer
 
 - 优化代码风格，括号带颜色匹配
+
+## Peacock
+- 给不同的窗口显示不同的颜色
