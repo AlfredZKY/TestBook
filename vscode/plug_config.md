@@ -7,7 +7,7 @@
 
 ## highlight-icemode 高亮显示
 
-- prettier-vscode 保存代码自动代码格式化
+## prettier-vscode 保存代码自动代码格式化
 
 - go 插件
   - "go.testFlags": ["-v"] 测试案例显示详细信息
@@ -25,4 +25,5 @@
 - 优化代码风格，括号带颜色匹配
 
 ## Peacock
+
 - 给不同的窗口显示不同的颜色

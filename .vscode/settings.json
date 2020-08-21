@@ -41,7 +41,7 @@
         "titleBar.inactiveForeground": "#e7e7e799",
         "editorLineNumber.foreground": "#17a346",
         "editorGutter.background": "#38da5b",
-        "editorCursor.foreground": "#d41313",
+        "editorCursor.foreground": "#d41313"
     },
     "peacock.color": "#dd0531",
     "editor.rulers":[120],
